@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="i">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/31329119/pexels-photo-31329119/free-photo-of-majestic-waterfall-with-explorer-in-nature.jpeg" alt="Beautiful Scenery" width="500">
+
+    <!-- Contacts Table -->
+    <h2>Contacts</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Esther nyamu</td>
+            <td>123 Main St</td>
+            <td>+1234567890</td>
+            <td>esthernyamu08@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rebbeca James</td>
+            <td>456 Oak St</td>
+            <td>+9876543210</td>
+            <td>rebbecajames23@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Mike Johnson</td>
+            <td>789 Pine St</td>
+            <td>+1122334455</td>
+            <td>mikej67@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Sarah Brown</td>
+            <td>101 Elm St</td>
+            <td>+5566778899</td>
+            <td>sarahbb@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emma Wilson</td>
+            <td>222 Maple St</td>
+            <td>+6677889900</td>
+            <td>emmawilly@gmail.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required> Male
+        <input type="radio" id="female" name="gender" value="Female" required> Female
+        <br><br>
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select>
+        <br><br>
+        
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="Coding"> Coding
+        <input type="checkbox" name="interests" value="Music"> Music
+        <input type="checkbox" name="interests" value="Sports"> Sports
+        <br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
